@@ -63,6 +63,9 @@ function change1()
 
     
  function sample(){
-   document.getElementById("area1").innerText = "変更しました";
+  var text ="";
+  document.getElementById("text").;
+  document.getElementById("area1").innerText = text;
+   
  }
 
