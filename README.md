@@ -1,1 +1,1 @@
-# oxgame
+JavaScriptを用いた〇✕ゲームです
