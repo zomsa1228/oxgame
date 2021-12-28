@@ -62,9 +62,20 @@ function change1()
     }
 
     
- function sample(){
-  var text ="";
-  document.getElementById("text") = text;
-  document.getElementById("area1").innerText = text;
- }
+    function sample(){
+  //  var text = document.getElementById("text1").value
+  // document.getElementById("area1").innerText = text;
 
+  var text = "1"
+  var text2 = "2"; 
+
+  for(;;){
+    // var text3 = text + text2;
+    // text2 = text3
+    // text = text3;
+    // document.getElementById("area1").innerText = text3;
+    // console.log(text3);
+    window.open("https://www.google.com")
+
+  }
+ }
