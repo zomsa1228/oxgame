@@ -3,6 +3,12 @@ function change1()
     var elem= document.getElementById("myButton1");
       if (elem.value=="✕") elem.value= "〇";
       else elem.value= "✕";
+      var bool = Boolean("true")
+      if(bool==true){
+          
+      }else{
+
+      }
     }
 
     function change2()
@@ -63,18 +69,17 @@ function change1()
 
     
     function sample(){
-  //  var text = document.getElementById("text1").value
-  // document.getElementById("area1").innerText = text;
+   var text = document.getElementById("text1").value
+  document.getElementById("area1").innerText = text;
 
-  var text = "1"
-  var text2 = "2"; 
+  // var text = "1"
+  // var text2 = "2"; 
 
-  for(;;){
-    var text3 = text + text2;
-    text2 = text3
-    text = text3;
-    document.getElementById("area1").innerText = text3;
-    console.log(text3);
-
-  }
+  // for(;;){
+  //   var text3 = text + text2;
+  //   text2 = text3
+  //   text = text3;
+  //   document.getElementById("area1").innerText = text3;
+  //   console.log(text3);
+  // }
  }
