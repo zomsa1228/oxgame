@@ -70,12 +70,11 @@ function change1()
   var text2 = "2"; 
 
   for(;;){
-    // var text3 = text + text2;
-    // text2 = text3
-    // text = text3;
-    // document.getElementById("area1").innerText = text3;
-    // console.log(text3);
-    window.open("https://www.google.com")
+    var text3 = text + text2;
+    text2 = text3
+    text = text3;
+    document.getElementById("area1").innerText = text3;
+    console.log(text3);
 
   }
  }
