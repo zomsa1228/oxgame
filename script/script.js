@@ -64,7 +64,7 @@ function change1()
     
  function sample(){
   var text ="";
-  document.getElementById("text") == text;
-  document.getElementById("area1").innerText == text;
+  document.getElementById("text") = text;
+  document.getElementById("area1").innerText = text;
  }
 
