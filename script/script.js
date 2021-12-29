@@ -69,14 +69,21 @@ function change1()
 
     
     function sample(){
-   var text = document.getElementById("text1").value
+   var text = document.getElementById("text1").value;
   document.getElementById("area1").innerText = text;
 
-  // var text = "1"
-  // var text2 = "2"; 
+  
+
+  // var text = 1;
+  // var text2 = 2; 
 
   // for(;;){
   //   var text3 = text + text2;
+  //   var text4 = text2;
+  //   text2 = text3;
+  //   text = text3;
+
+  //   text3 = text - text4;
   //   text2 = text3
   //   text = text3;
   //   document.getElementById("area1").innerText = text3;
