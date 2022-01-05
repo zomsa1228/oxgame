@@ -67,8 +67,12 @@ function change1()
     var elem= document.getElementById("myButton9");
       if (elem.value=="◯") elem.value= "✕";
       else elem.value= "◯";
+      ox();
       turns();
+      console.log(turn.textContent);
     }
+
+
     
  function sample(){
   var text ="";
@@ -79,8 +83,44 @@ function change1()
   console.log(text);
  }
 
+function ox(){
+var ox = 0;
+var ox = document.getElementById("turn").textContent
+Number(ox);
+if(ox == 1){
+ console.log("◯");
+
+}else if(ox == 2){
+  console.log("✕");
+
+  }else if(ox == 3){
+    console.log("◯");
+
+  }else if(ox == 4){
+    console.log("✕");
+
+  }else if(ox == 5){
+    console.log("◯");
+
+  }else if(ox == 6){
+    console.log("✕");
+
+  }else if(ox == 7){
+    console.log("◯");
+
+  }else if(ox == 8){
+    console.log("✕");
+
+  }else if(ox == 9){
+    console.log("◯");
+
+  }else{
+
+  }
+}
+
 function turns(){
-var turn = "0";
+var turn = 0;
 turn = document.getElementById("turn").textContent;
 console.log(turn);
 Number(turn); 
@@ -132,8 +172,9 @@ if(turn == 1){
   
 
 }else if (turn == 9){ 
-  turn = 10;
+  turn = "終了しました";
   document.getElementById("turn").innerText = turn;
+  document.getElementById
   console.log(turn);
   
 
