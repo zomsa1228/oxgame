@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./css/style.css">
-  <title>〇✕ゲーム</title>
+  <title>◯✕ゲーム</title>
   <script src="./script/script.js"></script>
-<body onload="sample();">
+<body>
   <div id="game">
     <div id="line1">
       <input onclick="change1()" type="button" value="　" id="myButton1">
@@ -28,6 +28,11 @@
       <input onclick="change9()" type="button" value="　" id="myButton9">
     </div>
   </div>
+
+  <p id="turn" value="1">1</p>
+  <p>番目</p>
+  <button onclick="turns();">　　</button>
+
   <form onsubmit="return false;">
     <label>test
   <input type="text" value="変更しました" onchange="sample();" name="text1" id="text1"></label>

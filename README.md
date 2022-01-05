@@ -1,1 +1,1 @@
-JavaScriptを用いた〇✕ゲームです
+JavaScriptを用いた◯✕ゲームです
