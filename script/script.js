@@ -358,17 +358,6 @@ function change1()
       } 
     }
 
-
-    
- function sample(){
-  var text ="";
-  
-  text = document.getElementById("text1").value;
-  console.log(text);
-  document.getElementById("area1").innerText = text;
-  console.log(text);
- }
-
 function ox(hantei){
 
 if(hantei == 1){
