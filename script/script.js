@@ -64,10 +64,12 @@ function change1()
 
   function change9()
   {
-    var elem= document.getElementById("myButton9");
-      if (elem.value=="◯") elem.value= "✕";
-      else elem.value= "◯";
-      ox();
+    // var elem= document.getElementById("myButton9");
+    //   if (elem.value=="◯") elem.value= "✕";
+    //   else elem.value= "◯";
+      ox(hantei);
+      console.log(hantei);
+      document.getElementById("myButton9") = hantei;
       turns();
       console.log(turn.textContent);
     }
@@ -83,35 +85,37 @@ function change1()
   console.log(text);
  }
 
-function ox(){
-var ox = 0;
-var ox = document.getElementById("turn").textContent
-Number(ox);
-if(ox == 1){
- console.log("◯");
+function ox(hantei){
+hantei = 0;
+hantei = document.getElementById("turn").textContent;
+Number(hantei);
+if(hantei == 1){
+hantei = "◯";
+console.log(hantei);
+return hantei;
 
-}else if(ox == 2){
+}else if(hantei == 2){
   console.log("✕");
 
-  }else if(ox == 3){
+  }else if(hantei == 3){
     console.log("◯");
 
-  }else if(ox == 4){
+  }else if(hantei == 4){
     console.log("✕");
 
-  }else if(ox == 5){
+  }else if(hantei == 5){
     console.log("◯");
 
-  }else if(ox == 6){
+  }else if(hantei == 6){
     console.log("✕");
 
-  }else if(ox == 7){
+  }else if(hantei == 7){
     console.log("◯");
 
-  }else if(ox == 8){
+  }else if(hantei == 8){
     console.log("✕");
 
-  }else if(ox == 9){
+  }else if(hantei == 9){
     console.log("◯");
 
   }else{
@@ -121,10 +125,13 @@ if(ox == 1){
 
 function turns(){
 var turn = 0;
+
 turn = document.getElementById("turn").textContent;
 console.log(turn);
+
 Number(turn); 
 console.log(turn);
+
 if(turn == 1){
   turn = 2;
   document.getElementById("turn").innerText = turn;
