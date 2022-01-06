@@ -67,11 +67,23 @@ function change1()
     // var elem= document.getElementById("myButton9");
     //   if (elem.value=="◯") elem.value= "✕";
     //   else elem.value= "◯";
-      ox(hantei);
-      console.log(hantei);
-      document.getElementById("myButton9") = hantei;
+    
+    //変数宣言
+    hantei1 = 0;
+    hantei1 = document.getElementById("turn").textContent;
+    Number(hantei1);
+
+      //hantei1にoxからの戻り値を格納
+      ox(hantei1);
+      console.log(hantei1);
+      document.getElementById("myButton9").value = hantei1;
+
+      //ターン数処理
       turns();
       console.log(turn.textContent);
+
+      
+
     }
 
 
@@ -86,9 +98,7 @@ function change1()
  }
 
 function ox(hantei){
-hantei = 0;
-hantei = document.getElementById("turn").textContent;
-Number(hantei);
+
 if(hantei == 1){
 hantei = "◯";
 console.log(hantei);
@@ -131,6 +141,8 @@ console.log(turn);
 
 Number(turn); 
 console.log(turn);
+
+
 
 if(turn == 1){
   turn = 2;
