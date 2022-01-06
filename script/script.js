@@ -1,80 +1,345 @@
 function change1()
     {
-    var elem= document.getElementById("myButton1");
-      if (elem.value=="◯") elem.value= "✕";
-      else elem.value= "◯";
-      turns();
+      console.log("実行した");
+
+      ox1 = document.getElementById("once1").value;
+      console.log(ox1);
+  
+      Number(ox1);
+      console.log(ox1);
+      
+      if(ox1 == 0)
+      {//一回のみ処理を行う判定用の数値
+        ox1 = 0;
+        console.log(ox1);
+  
+        //変数宣言
+        hantei1 = 0;
+        hantei1 = document.getElementById("turn").textContent;
+        Number(hantei1);
+  
+        //hantei1にoxからの戻り値を格納
+        hantei1 = ox(hantei1);
+  
+        console.log(hantei1);
+        document.getElementById("myButton1").value = hantei1;
+  
+        //ターン数処理
+        turns();
+        console.log(turn.textContent);
+  
+        //一回のみ処理を行う判定用の数値
+        ox1 = 1;
+        console.log(ox1);
+         document.getElementById("once1").value = ox1;
+        }if(ox1 == 1){
+         
+        } 
     }
 
     function change2()
     {
-    var elem= document.getElementById("myButton2");
-      if (elem.value=="◯") elem.value= "✕";
-      else elem.value= "◯";
-      turns();
+      console.log("実行した");
+
+      ox1 = document.getElementById("once2").value;
+      console.log(ox1);
+  
+      Number(ox1);
+      console.log(ox1);
+      
+      if(ox1 == 0)
+      {//一回のみ処理を行う判定用の数値
+        ox1 = 0;
+        console.log(ox1);
+  
+        //変数宣言
+        hantei1 = 0;
+        hantei1 = document.getElementById("turn").textContent;
+        Number(hantei1);
+  
+        //hantei1にoxからの戻り値を格納
+        hantei1 = ox(hantei1);
+  
+        console.log(hantei1);
+        document.getElementById("myButton2").value = hantei1;
+  
+        //ターン数処理
+        turns();
+        console.log(turn.textContent);
+  
+        //一回のみ処理を行う判定用の数値
+        ox1 = 1;
+        console.log(ox1);
+         document.getElementById("once2").value = ox1;
+        }if(ox1 == 1){
+         
+        } 
     }
 
     function change3()
     {
-    var elem= document.getElementById("myButton3");
-      if (elem.value=="◯") elem.value= "✕";
-      else elem.value= "◯";
-      turns();
+      console.log("実行した");
+
+      ox1 = document.getElementById("once3").value;
+      console.log(ox1);
+  
+      Number(ox1);
+      console.log(ox1);
+      
+      if(ox1 == 0)
+      {//一回のみ処理を行う判定用の数値
+        ox1 = 0;
+        console.log(ox1);
+  
+        //変数宣言
+        hantei1 = 0;
+        hantei1 = document.getElementById("turn").textContent;
+        Number(hantei1);
+  
+        //hantei1にoxからの戻り値を格納
+        hantei1 = ox(hantei1);
+  
+        console.log(hantei1);
+        document.getElementById("myButton3").value = hantei1;
+  
+        //ターン数処理
+        turns();
+        console.log(turn.textContent);
+  
+        //一回のみ処理を行う判定用の数値
+        ox1 = 1;
+        console.log(ox1);
+         document.getElementById("once3").value = ox1;
+        }if(ox1 == 1){
+         
+        } 
     }
 
     function change4()
     {
-    var elem= document.getElementById("myButton4");
-      if (elem.value=="◯") elem.value= "✕";
-      else elem.value= "◯";
-      turns();
+      console.log("実行した");
+
+      ox1 = document.getElementById("once4").value;
+      console.log(ox1);
+  
+      Number(ox1);
+      console.log(ox1);
+      
+      if(ox1 == 0)
+      {//一回のみ処理を行う判定用の数値
+        ox1 = 0;
+        console.log(ox1);
+  
+        //変数宣言
+        hantei1 = 0;
+        hantei1 = document.getElementById("turn").textContent;
+        Number(hantei1);
+  
+        //hantei1にoxからの戻り値を格納
+        hantei1 = ox(hantei1);
+  
+        console.log(hantei1);
+        document.getElementById("myButton4").value = hantei1;
+  
+        //ターン数処理
+        turns();
+        console.log(turn.textContent);
+  
+        //一回のみ処理を行う判定用の数値
+        ox1 = 1;
+        console.log(ox1);
+         document.getElementById("once4").value = ox1;
+        }if(ox1 == 1){
+         
+        } 
     }
 
     function change5()
     {
-    var elem= document.getElementById("myButton5");
-      if (elem.value=="◯") elem.value= "✕";
-      else elem.value= "◯";
-      turns();
+      console.log("実行した");
+
+      ox1 = document.getElementById("once5").value;
+      console.log(ox1);
+  
+      Number(ox1);
+      console.log(ox1);
+      
+      if(ox1 == 0)
+      {//一回のみ処理を行う判定用の数値
+        ox1 = 0;
+        console.log(ox1);
+  
+        //変数宣言
+        hantei1 = 0;
+        hantei1 = document.getElementById("turn").textContent;
+        Number(hantei1);
+  
+        //hantei1にoxからの戻り値を格納
+        hantei1 = ox(hantei1);
+  
+        console.log(hantei1);
+        document.getElementById("myButton5").value = hantei1;
+  
+        //ターン数処理
+        turns();
+        console.log(turn.textContent);
+  
+        //一回のみ処理を行う判定用の数値
+        ox1 = 1;
+        console.log(ox1);
+         document.getElementById("once5").value = ox1;
+        }if(ox1 == 1){
+         
+        } 
     }
 
     function change6()
     {
-    var elem= document.getElementById("myButton6");
-      if (elem.value=="◯") elem.value= "✕";
-      else elem.value= "◯";
+    
+    console.log("実行した");
+    ox1 = document.getElementById("once6").value;
+    console.log(ox1);
+
+    Number(ox1);
+    console.log(ox1);
+    
+    if(ox1 == 0)
+    {//一回のみ処理を行う判定用の数値
+      ox1 = 0;
+      console.log(ox1);
+
+      //変数宣言
+      hantei1 = 0;
+      hantei1 = document.getElementById("turn").textContent;
+      Number(hantei1);
+
+      //hantei1にoxからの戻り値を格納
+      hantei1 = ox(hantei1);
+
+      console.log(hantei1);
+      document.getElementById("myButton6").value = hantei1;
+
+      //ターン数処理
       turns();
+      console.log(turn.textContent);
+
+      //一回のみ処理を行う判定用の数値
+      ox1 = 1;
+      console.log(ox1);
+       document.getElementById("once6").value = ox1;
+      }if(ox1 == 1){
+       
+      } 
     }
 
     function change7()
     {
-    var elem= document.getElementById("myButton7");
-      if (elem.value=="◯") elem.value= "✕";
-      else elem.value= "◯";
+    
+    console.log("実行した");
+
+    ox1 = document.getElementById("once7").value;
+    console.log(ox1);
+
+    Number(ox1);
+    console.log(ox1);
+    
+    if(ox1 == 0)
+    {//一回のみ処理を行う判定用の数値
+      ox1 = 0;
+      console.log(ox1);
+
+      //変数宣言
+      hantei1 = 0;
+      hantei1 = document.getElementById("turn").textContent;
+      Number(hantei1);
+
+      //hantei1にoxからの戻り値を格納
+      hantei1 = ox(hantei1);
+
+      console.log(hantei1);
+      document.getElementById("myButton7").value = hantei1;
+
+      //ターン数処理
       turns();
+      console.log(turn.textContent);
+
+      //一回のみ処理を行う判定用の数値
+      ox1 = 1;
+      console.log(ox1);
+       document.getElementById("once7").value = ox1;
+      }if(ox1 == 1){
+       
+      } 
+
+
     }
 
     function change8()
     {
-    var elem= document.getElementById("myButton8");
-      if (elem.value=="◯") elem.value= "✕";
-      else elem.value= "◯";
+    console.log("実行した");
+
+    ox1 = document.getElementById("once8").value;
+    console.log(ox1);
+
+    Number(ox1);
+    console.log(ox1);
+    
+    if(ox1 == 0)
+    {
+      //一回のみ処理を行う判定用の数値
+      ox1 = 0;
+      console.log(ox1);
+
+      //変数宣言
+      hantei1 = 0;
+      hantei1 = document.getElementById("turn").textContent;
+      Number(hantei1);
+
+      //hantei1にoxからの戻り値を格納
+      hantei1 = ox(hantei1);
+
+      console.log(hantei1);
+      document.getElementById("myButton8").value = hantei1;
+
+      //ターン数処理
       turns();
+      console.log(turn.textContent);
+
+      //一回のみ処理を行う判定用の数値
+      ox1 = 1;
+      console.log(ox1);
+       document.getElementById("once8").value = ox1;
+       
+
+      }if(ox1 == 1){
+       
+      }   
     }
+
 
   function change9()
   {
-    // var elem= document.getElementById("myButton9");
-    //   if (elem.value=="◯") elem.value= "✕";
-    //   else elem.value= "◯";
+    console.log("実行した");
+
+    ox1 = document.getElementById("once9").value;
+    console.log(ox1);
+
+    Number(ox1);
+    console.log(ox1);
     
-    //変数宣言
-    hantei1 = 0;
-    hantei1 = document.getElementById("turn").textContent;
-    Number(hantei1);
+    if(ox1 == 0)
+    {//一回のみ処理を行う判定用の数値
+      ox1 = 0;
+      console.log(ox1);
+
+      //変数宣言
+      hantei1 = 0;
+      hantei1 = document.getElementById("turn").textContent;
+      Number(hantei1);
 
       //hantei1にoxからの戻り値を格納
-      ox(hantei1);
+      hantei1 = ox(hantei1);
+
       console.log(hantei1);
       document.getElementById("myButton9").value = hantei1;
 
@@ -82,8 +347,15 @@ function change1()
       turns();
       console.log(turn.textContent);
 
-      
+      //一回のみ処理を行う判定用の数値
+      ox1 = 1;
+      console.log(ox1);
+       document.getElementById("once9").value = ox1;
+       
 
+      }if(ox1 == 1){
+       
+      } 
     }
 
 
@@ -105,28 +377,44 @@ console.log(hantei);
 return hantei;
 
 }else if(hantei == 2){
-  console.log("✕");
+  hantei = "✕";
+  console.log(hantei);
+  return hantei;
 
   }else if(hantei == 3){
-    console.log("◯");
+    hantei = "◯";
+    console.log(hantei);
+    return hantei;
 
   }else if(hantei == 4){
-    console.log("✕");
+    hantei = "✕";
+    console.log(hantei);
+    return hantei;
 
   }else if(hantei == 5){
-    console.log("◯");
+    hantei = "◯";
+    console.log(hantei);
+    return hantei;
 
   }else if(hantei == 6){
-    console.log("✕");
+    hantei = "✕";
+    console.log(hantei);
+    return hantei;
 
   }else if(hantei == 7){
-    console.log("◯");
+    hantei = "◯";
+    console.log(hantei);
+    return hantei;
 
   }else if(hantei == 8){
-    console.log("✕");
+    hantei = "✕";
+    console.log(hantei);
+    return hantei;
 
   }else if(hantei == 9){
-    console.log("◯");
+    hantei = "◯";
+    console.log(hantei);
+    return hantei;
 
   }else{
 
@@ -192,6 +480,7 @@ if(turn == 1){
 
 }else if (turn == 9){ 
   turn = "終了しました";
+  document.getElementById("ban").innerText = "";
   document.getElementById("turn").innerText = turn;
   document.getElementById
   console.log(turn);
