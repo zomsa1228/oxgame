@@ -9,7 +9,8 @@ function change1()
       console.log(ox1);
       
       if(ox1 == 0)
-      {//一回のみ処理を行う判定用の数値
+      {
+        //一回のみ処理を行う判定用の数値
         ox1 = 0;
         console.log(ox1);
   
@@ -48,7 +49,8 @@ function change1()
       console.log(ox1);
       
       if(ox1 == 0)
-      {//一回のみ処理を行う判定用の数値
+      {
+        //一回のみ処理を行う判定用の数値
         ox1 = 0;
         console.log(ox1);
   
@@ -87,7 +89,8 @@ function change1()
       console.log(ox1);
       
       if(ox1 == 0)
-      {//一回のみ処理を行う判定用の数値
+      {
+        //一回のみ処理を行う判定用の数値
         ox1 = 0;
         console.log(ox1);
   
@@ -126,7 +129,8 @@ function change1()
       console.log(ox1);
       
       if(ox1 == 0)
-      {//一回のみ処理を行う判定用の数値
+      {
+        //一回のみ処理を行う判定用の数値
         ox1 = 0;
         console.log(ox1);
   
@@ -165,7 +169,8 @@ function change1()
       console.log(ox1);
       
       if(ox1 == 0)
-      {//一回のみ処理を行う判定用の数値
+      {
+        //一回のみ処理を行う判定用の数値
         ox1 = 0;
         console.log(ox1);
   
@@ -204,7 +209,8 @@ function change1()
     console.log(ox1);
     
     if(ox1 == 0)
-    {//一回のみ処理を行う判定用の数値
+    {
+      //一回のみ処理を行う判定用の数値
       ox1 = 0;
       console.log(ox1);
 
@@ -244,7 +250,8 @@ function change1()
     console.log(ox1);
     
     if(ox1 == 0)
-    {//一回のみ処理を行う判定用の数値
+    {
+      //一回のみ処理を行う判定用の数値
       ox1 = 0;
       console.log(ox1);
 
@@ -268,10 +275,9 @@ function change1()
       console.log(ox1);
        document.getElementById("once7").value = ox1;
       }if(ox1 == 1){
-       
+      
+
       } 
-
-
     }
 
     function change8()
@@ -316,7 +322,6 @@ function change1()
       }   
     }
 
-
   function change9()
   {
     console.log("実行した");
@@ -328,7 +333,8 @@ function change1()
     console.log(ox1);
     
     if(ox1 == 0)
-    {//一回のみ処理を行う判定用の数値
+    {
+      //一回のみ処理を行う判定用の数値
       ox1 = 0;
       console.log(ox1);
 
@@ -419,8 +425,6 @@ console.log(turn);
 Number(turn); 
 console.log(turn);
 
-
-
 if(turn == 1){
   turn = 2;
   document.getElementById("turn").innerText = turn;
@@ -465,7 +469,7 @@ if(turn == 1){
   turn = 9;
   document.getElementById("turn").innerText = turn;
   console.log(turn);
-  
+
 
 }else if (turn == 9){ 
   turn = "終了しました";
@@ -473,7 +477,6 @@ if(turn == 1){
   document.getElementById("turn").innerText = turn;
   document.getElementById
   console.log(turn);
-  
 
   }
 }
